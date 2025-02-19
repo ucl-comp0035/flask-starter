@@ -14,7 +14,9 @@
      │      ├── __init__.py     # Has the code to configure the Flask app
      │      ├── static/         # e.g. CSS
      │      ├── templates/      # Jinja page templates saved as .html files
-     │          ├── index.html
+     │          ├── index.html  # Home page templates
+     │      ├── routes.py       # Route definiton for the home page
+     │      ├── run.py          # Alternative option for running the Flask app instead of command line
      ├── tests/                 # Test suite
      │   ├── conftest.py        # e.g. test fixtures
      │   ├── test_starter.py    # Example test, RENAME THIS TO SUIT YOUR APP!
@@ -50,3 +52,5 @@
    You can specify a different port using `--port` e.g.  `flask --app flaskstarter run --debug --port 5001`
 
 You can also run the Flask app using `run.py` using the green run button in your IDE, or `python src/flaskstarter/run.py`.
+
+7. Please change the app name to your own and not 'flaskstarter'. Use the IDE and Refactor > Rename so that all associated imports etc are changed to reflect the new name.
